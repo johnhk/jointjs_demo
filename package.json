@@ -1,0 +1,28 @@
+{
+    "name": "jointjs_demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "packageManager": "pnpm@10.15.0",
+    "dependencies": {
+        "@joint/core": "^4.2.3"
+    },
+    "devDependencies": {
+        "typescript": "^5.9.3",
+        "vite": "^7.3.1"
+    },
+    "pnpm": {
+        "overrides": {
+            "vite": "^8.0.0-beta.13"
+        }
+    }
+}
